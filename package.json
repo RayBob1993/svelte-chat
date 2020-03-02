@@ -1,0 +1,38 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c",
+    "serve": "rollup -c -w",
+    "start": "sirv public"
+  },
+  "engines": {
+    "node": ">=11.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/runtime": "^7.7.6",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "node-sass": "^4.13.1",
+    "rollup": "^1.31.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-livereload": "^1.0.4",
+    "rollup-plugin-svelte": "^5.1.1",
+    "rollup-plugin-terser": "^5.2.0",
+    "svelte": "^3.18.2",
+    "svelte-preprocess-sass": "^0.2.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "autolinker": "^3.12.0",
+    "axios": "^0.19.2",
+    "i18n": "^0.8.4",
+    "lodash": "^4.17.15",
+    "sirv-cli": "^0.4.5",
+    "socket.io-client": "^2.3.0"
+  }
+}
